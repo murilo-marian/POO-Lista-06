@@ -9,5 +9,8 @@ public class Exercicio04 {
         int n1 = entrada.nextInt();
 
         System.out.println(Funcoes.testaPositivo(n1));
+
+        entrada.close();
+
     }
 }

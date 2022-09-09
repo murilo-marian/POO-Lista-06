@@ -11,5 +11,7 @@ public class Exercicio09 {
 
         System.out.println(Funcoes.inverteNumero(num));
 
+        entrada.close();
+
     }
 }

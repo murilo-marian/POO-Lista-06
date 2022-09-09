@@ -11,5 +11,8 @@ public class Exercicio03 {
         int n3 = entrada.nextInt();
 
         System.out.println(Funcoes.someTres(n1, n2, n3));
+
+        entrada.close();
+
     }
 }

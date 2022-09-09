@@ -9,5 +9,7 @@ public class Exercicio01 {
         System.out.print("Digite o número a ser retornado: ");
         int num = entrada.nextInt();
         System.out.println(Funcoes.piramide(num));
+
+        entrada.close();
     }
 }

@@ -11,6 +11,7 @@ public class Exercicio11 {
 
         System.out.println(Funcoes.mesExtenso(data));
 
+        entrada.close();
 
     }
 }

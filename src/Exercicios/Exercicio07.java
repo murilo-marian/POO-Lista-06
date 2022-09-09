@@ -32,5 +32,8 @@ public class Exercicio07 {
             valorTotal += valores.get(i);
         }
         System.out.println("Valor total: " + valorTotal);
+
+        entrada.close();
+
     }
 }

@@ -10,5 +10,8 @@ public class Exercicio08 {
         int num = entrada.nextInt();
 
         System.out.println(Funcoes.contaDigito(num));
+
+        entrada.close();
+
     }
 }

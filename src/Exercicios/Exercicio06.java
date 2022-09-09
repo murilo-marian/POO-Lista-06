@@ -22,5 +22,8 @@ public class Exercicio06 {
             System.out.println("Deseja continuar? (0 - sair/ 1 - continuar)");
             rodando = entrada.nextInt();
         } while (rodando != 0);
+
+        entrada.close();
+
     }
 }

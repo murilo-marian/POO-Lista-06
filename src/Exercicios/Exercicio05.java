@@ -12,5 +12,8 @@ public class Exercicio05 {
         float imposto = entrada.nextFloat();
 
         System.out.println(Funcoes.somaImposto(imposto, preco));
+
+        entrada.close();
+
     }
 }
